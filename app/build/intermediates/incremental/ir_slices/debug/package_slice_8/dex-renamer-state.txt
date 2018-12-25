@@ -1,0 +1,4 @@
+#Tue Dec 18 12:48:01 SGT 2018
+base.0=C\:\\Users\\Arvin\\Documents\\GitHub\\DesignThinking-and-Project-Management\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

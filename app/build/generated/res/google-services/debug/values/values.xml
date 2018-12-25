@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">876142576298-d44v8nu9iflcnulutg6i2v66pujvor2o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://woyobank-21393.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">876142576298</string>
+    <string name="google_api_key" translatable="false">AIzaSyCrmhrOtHUdn0KeX87LXswRg4lFyHrYe2c</string>
+    <string name="google_app_id" translatable="false">1:876142576298:android:f74654fe7fdd664e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCrmhrOtHUdn0KeX87LXswRg4lFyHrYe2c</string>
+    <string name="google_storage_bucket" translatable="false">woyobank-21393.appspot.com</string>
+    <string name="project_id" translatable="false">woyobank-21393</string>
+</resources>
