@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "876142576298-gfhq17bsolpt4jksfkje7oubfqhu1v7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.woyobank.woyobank",
+            "certificate_hash": "b7b3659ed1b2ce4f9b5ca3120991769e107cb377"
+          }
+        },
+        {
           "client_id": "876142576298-d44v8nu9iflcnulutg6i2v66pujvor2o.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876142576298-d44v8nu9iflcnulutg6i2v66pujvor2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
