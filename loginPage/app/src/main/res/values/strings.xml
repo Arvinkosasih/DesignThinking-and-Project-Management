@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">loginPage</string>
+    <string name="welcometext">WELCOME</string>
+    <string name="copyrightfirstline">©2018 Mobile Bank Cooperation</string>
+    <string name="copyrightsecondline">All right reserved</string>
+    <string name="signupheader">signupheaderpage</string>
+    <string name="transferheader">transferheaderpage</string>
+    <string name="utilitiesheader">utilitiesheaderPage</string>
+    <string name="checkbalanceheader">checkbalanceheaderPage</string>
+    <string name="transferhistoryheader">transferhistoryheaderPage</string>
+    <string name="accountrecoveryheader">accountrecoveryheaderPage</string>
+</resources>
