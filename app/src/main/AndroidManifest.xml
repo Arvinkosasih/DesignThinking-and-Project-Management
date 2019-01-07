@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CheckBalance"></activity>
+        <activity android:name=".CheckBalance" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignUpActivity2" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".TransferActivity" />
+        <activity android:name=".TransferActivity2"></activity>
     </application>
 
 </manifest>
