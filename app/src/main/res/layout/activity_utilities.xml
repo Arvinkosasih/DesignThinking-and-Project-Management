@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UtilitiesActivity">
+
+    <Button
+        android:id="@+id/electricityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electricity"
+        android:onClick="electricityButton" />
+
+    <Button
+        android:id="@+id/pubButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Public Utilities Board"
+        android:onClick="pubButton" />
+
+    <Button
+        android:id="@+id/gasButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gas"
+        android:onClick="gasButton" />
+
+</LinearLayout>

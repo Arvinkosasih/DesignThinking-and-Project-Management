@@ -22,7 +22,13 @@
         <activity android:name=".SignUpActivity2" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".TransferActivity" />
-        <activity android:name=".TransferActivity2"></activity>
+        <activity android:name=".TransferActivity2" />
+        <activity android:name=".CheckBalanceActivity" />
+        <activity android:name=".AccountRecoveryActivity" />
+        <activity android:name=".UtilitiesActivity" />
+        <activity android:name=".UtilitiesActivity2" />
+        <activity android:name=".UtilitiesActivity3" />
+        <activity android:name=".TransactionHistoryActivity"></activity>
     </application>
 
 </manifest>

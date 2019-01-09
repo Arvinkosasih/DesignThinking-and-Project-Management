@@ -17,8 +17,20 @@ public class HomeActivity extends AppCompatActivity {
 
     }
 
+    public void balanceButton(View view) {
+        startActivity(new Intent(HomeActivity.this, CheckBalanceActivity.class));
+    }
+
     public void transferButton(View view) {
         startActivity(new Intent(HomeActivity.this, TransferActivity.class));
+    }
+
+    public void utilitiesButton(View view) {
+        startActivity(new Intent(HomeActivity.this, UtilitiesActivity.class));
+    }
+
+    public void transactionHistoryButton(View view) {
+        startActivity(new Intent(HomeActivity.this, TransactionHistoryActivity.class));
     }
 
     public void signOutButton(View view) {

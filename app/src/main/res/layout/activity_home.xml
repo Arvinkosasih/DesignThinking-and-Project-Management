@@ -10,11 +10,32 @@
     tools:context=".HomeActivity">
 
     <Button
+        android:id="@+id/balanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Balance"
+        android:onClick="balanceButton" />
+
+    <Button
         android:id="@+id/transferButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Transfer"
         android:onClick="transferButton" />
+
+    <Button
+        android:id="@+id/utilitiesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utilities"
+        android:onClick="utilitiesButton" />
+
+    <Button
+        android:id="@+id/transactionHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction History"
+        android:onClick="transactionHistoryButton" />
 
     <Button
         android:id="@+id/signOutButton"
