@@ -64,6 +64,6 @@
         android:layout_gravity="center"
         android:text="Forgot password?"
         android:textAlignment="center"
-        android:onClick="forgotPwdButton"/>
+        android:onClick="tvForgotPwd"/>
 
 </LinearLayout>
