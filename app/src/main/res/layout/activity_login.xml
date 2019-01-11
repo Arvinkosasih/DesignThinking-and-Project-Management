@@ -67,11 +67,7 @@
         android:onClick="tvForgotPwd"
         android:text="Forgot password?"
         android:textAlignment="center"
-<<<<<<< HEAD
         android:textColor="@android:color/white"
         android:textSize="20sp" />
-=======
-        android:onClick="tvForgotPwd"/>
->>>>>>> 224cd422132c62d79d147a86210eadf97ed1f5a0
 
 </LinearLayout>
