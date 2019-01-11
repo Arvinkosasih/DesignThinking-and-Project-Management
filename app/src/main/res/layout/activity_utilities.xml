@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/utilitiesheaderwithlogo2"
     android:orientation="vertical"
     tools:context=".UtilitiesActivity">
 
@@ -12,6 +13,9 @@
         android:id="@+id/electricityButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Electricity"
         android:onClick="electricityButton" />
 
@@ -19,6 +23,8 @@
         android:id="@+id/pubButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Public Utilities Board"
         android:onClick="pubButton" />
 
@@ -26,6 +32,8 @@
         android:id="@+id/gasButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Gas"
         android:onClick="gasButton" />
 

@@ -5,29 +5,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/utilitiesheaderwithlogo2"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:layout_margin="0dp"
     tools:context=".UtilitiesActivity2">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="230dp"
         android:text="Your Account Balance" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:text="SGD" />
 
         <TextView
             android:id="@+id/tvBalance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:text="Balance" />
 
     </LinearLayout>
@@ -36,6 +46,8 @@
         android:id="@+id/tvUtil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="UTIL"
         android:textSize="24dp"
         android:gravity="center" />
@@ -44,10 +56,14 @@
         android:id="@+id/tiBlockNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
 
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:hint="Block Number"
             android:inputType="number" />
 
@@ -56,11 +72,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:text="#"
             android:textSize="24dp"/>
 
@@ -68,11 +88,15 @@
             android:id="@+id/tiUnit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1">
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:hint="Unit"
                 android:inputType="number" />
 
@@ -81,6 +105,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:text="-"
             android:textSize="24dp"/>
 
@@ -88,11 +114,15 @@
             android:id="@+id/tiNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1">
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:hint="Number"
                 android:inputType="number" />
 
@@ -104,10 +134,14 @@
         android:id="@+id/tiPostalCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
 
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:hint="Postal Code"
             android:inputType="number" />
 
@@ -117,6 +151,8 @@
         android:id="@+id/nextButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Next"
         android:onClick="nextButton" />
 

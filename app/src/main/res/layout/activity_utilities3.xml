@@ -5,19 +5,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/utilitiesheaderwithlogo2"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:layout_margin="0dp"
     tools:context=".UtilitiesActivity3">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="230dp"
         android:text="Title" />
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Title"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -25,12 +31,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Block Number" />
 
     <TextView
         android:id="@+id/tvBlockNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Block Number"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -38,12 +48,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Unit Number" />
 
     <TextView
         android:id="@+id/tvUnitNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Unit Number"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -51,12 +65,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Postal Code" />
 
     <TextView
         android:id="@+id/tvPostalCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Postal Code"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -64,15 +82,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Amount" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:text="$"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textStyle="bold" />
@@ -81,6 +104,8 @@
             android:id="@+id/tvAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:text="Amount"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textStyle="bold" />
@@ -90,6 +115,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Make sure the information above is correct"
         android:textAlignment="center" />
 
@@ -97,6 +124,8 @@
         android:id="@+id/transferButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_gravity="right"
         android:text="Transfer"
         android:onClick="transferButton" />

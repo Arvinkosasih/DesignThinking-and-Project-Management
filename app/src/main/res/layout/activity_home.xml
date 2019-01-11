@@ -1,47 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.design.circularreveal.CircularRevealRelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:background="@drawable/homepage"
+    android:layout_margin="0dp"
     tools:context=".HomeActivity">
 
     <Button
         android:id="@+id/balanceButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Check Balance"
-        android:onClick="balanceButton" />
+        android:layout_above="@+id/transferButton"
+        android:layout_alignParentStart="true"
+        android:onClick="balanceButton"
+        android:text="Check Balance" />
 
     <Button
         android:id="@+id/transferButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transfer"
-        android:onClick="transferButton" />
+        android:layout_above="@+id/utilitiesButton"
+        android:layout_alignParentStart="true"
+        android:onClick="transferButton"
+        android:text="Transfer" />
 
     <Button
         android:id="@+id/utilitiesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Utilities"
-        android:onClick="utilitiesButton" />
+        android:layout_above="@+id/transactionHistoryButton"
+        android:layout_alignParentStart="true"
+        android:onClick="utilitiesButton"
+        android:text="Utilities" />
 
     <Button
         android:id="@+id/transactionHistoryButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transaction History"
-        android:onClick="transactionHistoryButton" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="169dp"
+        android:onClick="transactionHistoryButton"
+        android:text="Transaction History" />
 
     <Button
         android:id="@+id/signOutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Out"
-        android:onClick="signOutButton" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:onClick="signOutButton"
+        android:text="Sign Out" />
 
-</LinearLayout>
+</android.support.design.circularreveal.CircularRevealRelativeLayout>

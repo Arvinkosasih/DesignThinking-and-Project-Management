@@ -88,4 +88,9 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
         finish();
     }
+
+    public void tvForgotPwd(View view){
+        startActivity(new Intent(LoginActivity.this, AccountRecoveryActivity.class));
+        finish();
+    }
 }

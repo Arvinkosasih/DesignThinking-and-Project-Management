@@ -5,8 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/scenery"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:layout_margin="0dp"
     tools:context=".LoginActivity">
 
     <android.support.design.widget.TextInputLayout
@@ -62,8 +63,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:onClick="tvForgotPwd"
         android:text="Forgot password?"
         android:textAlignment="center"
-        android:onClick="forgotPwdButton"/>
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
 
 </LinearLayout>

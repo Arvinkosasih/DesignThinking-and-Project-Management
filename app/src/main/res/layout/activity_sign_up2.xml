@@ -5,19 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/signup"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:layout_margin="0dp"
     tools:context=".SignUpActivity2">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
         android:text="Email" />
 
     <TextView
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Email"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -25,12 +29,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Name" />
 
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -38,12 +46,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Phone Number" />
 
     <TextView
         android:id="@+id/tvPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Phone Number"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -51,12 +63,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="PIN" />
 
     <TextView
         android:id="@+id/tvPIN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="PIN"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -64,12 +80,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Card Number" />
 
     <TextView
         android:id="@+id/tvCardNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Card Number"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />
@@ -77,6 +97,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="Make sure the information above is correct"
         android:textAlignment="center" />
 
@@ -84,6 +106,7 @@
         android:id="@+id/yesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
         android:layout_gravity="right"
         android:text="Yes"
         android:textAlignment="center"
