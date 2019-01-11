@@ -24,6 +24,9 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
+/*
+ * confirmation page for paying utilities bills
+ */
 public class UtilitiesActivity3 extends AppCompatActivity {
 
     private static final String TAG = "UtilitiesActivity3";

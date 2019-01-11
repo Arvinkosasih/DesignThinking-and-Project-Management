@@ -28,7 +28,10 @@ import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-
+/*
+ * receives user input to send amount to the target user
+ * creates values for both sender and receiver
+ */
 public class TransferActivity2 extends AppCompatActivity {
 
     private static final String TAG = "TransferActivity2";

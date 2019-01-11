@@ -6,6 +6,11 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+/*
+ * initiates the sign up feature by taking input from the user
+ * intents the values to SignUpActivity2
+ */
+
 public class SignUpActivity extends AppCompatActivity {
 
     TextInputLayout tiEmail, tiPwd, tiPhone, tiPIN,

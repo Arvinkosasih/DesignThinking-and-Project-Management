@@ -13,7 +13,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.woyobank.woyobank.models.User;
 
-
+/*
+ * show the name, card number, and the user's balance
+ */
 public class CheckBalanceActivity extends AppCompatActivity {
 
     private DatabaseReference mUserRef;

@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+/*
+ * receives input by user to for paying utilities bills
+ */
 public class UtilitiesActivity extends AppCompatActivity {
 
     // this string variable replaces the target user card number in the transaction history

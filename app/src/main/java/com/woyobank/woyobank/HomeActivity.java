@@ -7,6 +7,10 @@ import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+/*
+ * only displays directory buttons leading to other Activities
+ * receives and passes no values at all
+ */
 public class HomeActivity extends AppCompatActivity {
 
 

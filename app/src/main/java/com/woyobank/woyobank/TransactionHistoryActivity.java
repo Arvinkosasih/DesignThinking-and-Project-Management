@@ -18,6 +18,12 @@ import com.woyobank.woyobank.adapter.RecyclerViewAdapter;
 
 import java.util.ArrayList;
 
+/*
+ * displays all types of transactions
+ * passes values and display using recycler view
+ * displays both transfer made by the user and transfers received by the user
+ */
+
 public class TransactionHistoryActivity extends AppCompatActivity {
 
     private DatabaseReference mUserHistoryRef;

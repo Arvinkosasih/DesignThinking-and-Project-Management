@@ -17,7 +17,8 @@ import com.google.firebase.database.ValueEventListener;
 import com.woyobank.woyobank.models.User;
 
 /*
-
+ * processes the payment and reduces balance
+ * uses the same principle with transfer but uses a String indicating the utility type instead of the target card number
  */
 public class UtilitiesActivity2 extends AppCompatActivity {
 

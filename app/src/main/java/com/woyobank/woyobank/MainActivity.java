@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/*
+ * initiates the application
+ * click anywhere in the screen to continue
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     Button button;
