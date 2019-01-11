@@ -96,7 +96,7 @@ public class TransactionHistoryActivity extends AppCompatActivity {
         initRecyclerView();
     }
 
-    private void initRecyclerView (){
+    private void initRecyclerView (){ // used to call the recycler view from RecyclerViewAdapter
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, dateTime, title, sign, amount, newBalance);
         recyclerView.setAdapter(adapter);

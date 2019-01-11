@@ -14,6 +14,10 @@ import com.woyobank.woyobank.R;
 
 import java.util.ArrayList;
 
+/*
+ * Adapter for the recycler view
+ * used in the transaction history
+ */
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
 
     private static final String TAG = "RecyclerViewAdapter";
@@ -59,6 +63,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
+    // any other variable other than "context" would have worked
+    // the .size is only to accept more iterations of the values
     public int getItemCount() {
         return titles.size();
     }

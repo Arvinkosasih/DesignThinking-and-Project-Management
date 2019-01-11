@@ -18,6 +18,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.woyobank.woyobank.models.User;
 
+/*
+ * receives intent values from SignUpActivity
+ * a confirmation page displaying the entered credentials
+ */
 public class SignUpActivity2 extends AppCompatActivity {
 
     private static final String TAG = "SignUpActivity2";

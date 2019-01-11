@@ -108,7 +108,7 @@ public class UtilitiesActivity3 extends AppCompatActivity {
     private void userTransaction(final String transactionId) {
         final String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
         final double amount = Double.parseDouble(tvAmount.getText().toString());
-        final String sign = "-";
+        final String sign = "-";//this is a variable that will be passed on and used in the transfer history
 
         mUserRef.addListenerForSingleValueEvent(
                 new ValueEventListener() {
@@ -142,6 +142,7 @@ public class UtilitiesActivity3 extends AppCompatActivity {
                 });
     }
 
+    // Maps are used in the next two methods just to simplify passing the values into the database
     private void addNewTransfer(String userId, String targetId, String transactionId) {
         String key = mDatabase.child("transfers").push().getKey();
         Transfer transfer = new Transfer(userId, targetId, transactionId);
@@ -169,6 +170,11 @@ public class UtilitiesActivity3 extends AppCompatActivity {
         return timestamp;
     }
 
+    /*
+     * the format used in the transaction history is a String with "dd-MM-yyyy 00:00"
+     * this method converts the time before storing into the database
+     * this makes it easier to pull just one String value instead of pulling the timestamp and converting it there
+     */
     private String getDateTime(Long timestamp) {
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.getDefault());
         String dateTime = format.format(timestamp);

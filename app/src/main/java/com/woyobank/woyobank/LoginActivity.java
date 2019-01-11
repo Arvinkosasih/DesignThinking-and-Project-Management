@@ -64,18 +64,20 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        mAuth.signInWithEmailAndPassword(email, password)
+        mAuth.signInWithEmailAndPassword(email, password) //sign in using the built-in firebase authenticator
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Log.d(TAG, "Login:onComplete:" + task.isSuccessful());
 
+                        // logs in the user when email and password matches that of saved in the database
                         if (task.isSuccessful()) {
                             startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                             Toast.makeText(LoginActivity.this, "Login Success",
                                     Toast.LENGTH_SHORT).show();
                             finish();
                         }
+                        // no further error checking required other than the built-in authenticator
                         else {
                             Toast.makeText(LoginActivity.this, "Login Failed",
                                     Toast.LENGTH_SHORT).show();

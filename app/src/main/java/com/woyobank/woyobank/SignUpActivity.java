@@ -47,6 +47,10 @@ public class SignUpActivity extends AppCompatActivity {
         startActivity(nextIntent);
     }
 
+    /*
+     * trim() is not necessary
+     * serves as a secondary error checking if someone accidentally types in a whitespace
+     */
     private boolean validateForm() {
         boolean result = true;
         email = tiEmail.getEditText().getText().toString().trim();

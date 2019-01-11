@@ -13,6 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.woyobank.woyobank.models.User;
 
+
 public class CheckBalanceActivity extends AppCompatActivity {
 
     private DatabaseReference mUserRef;
@@ -23,6 +24,7 @@ public class CheckBalanceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_balance);
 
+        //these variables allows us to get the data based on the uniquely generated userId
         final String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
         mUserRef = FirebaseDatabase.getInstance().getReference().child("users").child(userId);
 
@@ -35,6 +37,7 @@ public class CheckBalanceActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
+        //onStart is only used to update the balance of the user when an update is applied on the database
         mUserRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

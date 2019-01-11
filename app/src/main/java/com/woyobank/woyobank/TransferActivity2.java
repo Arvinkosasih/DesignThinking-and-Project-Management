@@ -69,6 +69,10 @@ public class TransferActivity2 extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
+        /*
+         * the system prints present in the query below is not part of the display
+         * this was used to monitor the variables that were passed through the logcat
+         */
         final Query userQuery = mDatabase.child("users").orderByChild("cardNum");
         userQuery.addChildEventListener(new ChildEventListener() {
             @Override
@@ -187,7 +191,7 @@ public class TransferActivity2 extends AppCompatActivity {
     private void userTransaction(final String transactionId) {
         final String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
         final double amount = Double.parseDouble(tvAmount.getText().toString());
-        final String sign = "-";
+        final String sign = "-";//this is a variable that will be passed on and used in the transfer history
 
         mUserRef.addListenerForSingleValueEvent(
                 new ValueEventListener() {
@@ -224,7 +228,7 @@ public class TransferActivity2 extends AppCompatActivity {
     private void targetTransaction(final String transactionId) {
         final String targetId = mTargetRef.getKey();
         final double amount = Double.parseDouble(tvAmount.getText().toString());
-        final String sign = "+";
+        final String sign = "+";//this is a variable that will be passed on and used in the transfer history
 
         mTargetRef.addListenerForSingleValueEvent(
                 new ValueEventListener() {

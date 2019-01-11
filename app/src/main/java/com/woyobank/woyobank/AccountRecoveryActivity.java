@@ -12,6 +12,10 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+/*
+ * sends an email to the entered address
+ * a link will be given to reset the password
+ */
 
 public class AccountRecoveryActivity extends AppCompatActivity {
 

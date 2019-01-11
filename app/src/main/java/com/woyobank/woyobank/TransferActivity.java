@@ -6,12 +6,15 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+/*
+ * initiates the transfer feature by taking in the target card number and amount
+ */
 public class TransferActivity extends AppCompatActivity {
 
     TextInputLayout tiTargetCardNum, tiAmount;
 
     String targetCardNum;
-    String amount;
+    String amount;// "amount" is used throughout the project to indicate the cost or a general change in balance
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

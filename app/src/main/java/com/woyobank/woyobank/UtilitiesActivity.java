@@ -7,6 +7,7 @@ import android.view.View;
 
 public class UtilitiesActivity extends AppCompatActivity {
 
+    // this string variable replaces the target user card number in the transaction history
     final String ELECTRICITY = "ELECTRICITY";
     final String PUB = "PUB";
     final String GAS = "GAS";
@@ -17,6 +18,8 @@ public class UtilitiesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_utilities);
     }
 
+    //the same activity is used for 3 following buttons
+    //only the passed string value differs
     public void electricityButton(View view) {
         Intent electricityIntent = new Intent(UtilitiesActivity.this, UtilitiesActivity2.class);
         electricityIntent.putExtra("util", ELECTRICITY);

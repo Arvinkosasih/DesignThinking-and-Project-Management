@@ -16,6 +16,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.woyobank.woyobank.models.User;
 
+/*
+
+ */
 public class UtilitiesActivity2 extends AppCompatActivity {
 
     private DatabaseReference mUserRef;
@@ -47,6 +50,7 @@ public class UtilitiesActivity2 extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
+        // this method is added just to remind users what their current balance is
         mUserRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
